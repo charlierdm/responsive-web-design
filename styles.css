@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
   margin: 0;
 }
@@ -13,10 +13,21 @@ header {
   min-width: fit-content;
 }
 
-h1 {
+h1,
+h2 {
   color: #fff;
   text-align: center;
   margin: 1em;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  padding: 1em;
+  margin: 0;
+  font-size: 1.8em;
 }
 
 ul {
@@ -28,9 +39,26 @@ ul {
   list-style: none;
 }
 
-a {   
+a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  padding: 0.4em;
+  padding: 0.7em;
+}
+
+.subheading {
+  background-color: rgb(235, 235, 235);
+  background-repeat: no-repeat;
+  background-image: url(./public/piz-buin.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35em;
+}
+
+@media screen and (max-width: 767px) {
+  .subheading {
+    height: 30vh;
+    min-height: unset;
+  }
 }
