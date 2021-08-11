@@ -20,15 +20,15 @@ h2 {
 }
 
 h1 {
-  font-size: 2.3em;
-  margin: 1em;
+  font-size: 2.3rem;
+  margin: 1rem;
   opacity: 70%;
 }
 
 h2 {
-  padding: 1em;
+  padding: 1rem;
   margin: 0;
-  font-size: 1.9em;
+  font-size: 1.9rem;
   font-style: italic;
   opacity: 70%;
 }
@@ -38,7 +38,7 @@ h3 {
   margin: 0;
   text-align: center;
   color: #333;
-  font-size: 1.7em;
+  font-size: 1.7rem;
 }
 
 ul {
@@ -54,7 +54,7 @@ a {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  padding: 0.7em;
+  padding: 0.7rem;
   opacity: 70%;
 }
 
@@ -65,7 +65,7 @@ a {
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
-  height: 30em;
+  height: 30rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -75,7 +75,7 @@ a {
   }
   .split {
     flex-direction: column;
-    margin: 3em;
+    margin: 3rem;
   }
 }
 
@@ -86,18 +86,10 @@ a {
 .split {
   display: flex;
   font-weight: 600;
-  min-width: 1em;
-  margin-left: 4em;
-  margin-right: 4em
+  min-width: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem
 }
-
-/* .p1-about {
-  text-align: right;
-}
-
-.p2-about {
-  text-align: left;
-} */
 
 .p1-about,
 .p2-about {
@@ -111,15 +103,15 @@ p {
 }
 
 .below-buttons {
-  padding: 1em;
+  padding: 1rem;
   font-weight: 600;
-  padding: 0.5em;
+  padding: 0.5rem;
   text-align: center;
 }
 
 button {
   border-style: none;
-  padding: 0.8em;
+  padding: 0.8rem;
   background-color:rgb(195, 209, 207);
   color: #fff;
   border-radius: 10%;
