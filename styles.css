@@ -17,17 +17,24 @@ h1,
 h2 {
   color: #fff;
   text-align: center;
-  margin: 1em;
 }
 
 h1 {
   font-size: 2.3em;
+  margin: 1em;
 }
 
 h2 {
   padding: 1em;
   margin: 0;
   font-size: 1.8em;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  color: #333;
+  font-size: 1.5em;
 }
 
 ul {
@@ -53,7 +60,7 @@ a {
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
-  height: 35em;
+  height: 30em;
 }
 
 @media screen and (max-width: 767px) {
@@ -61,4 +68,15 @@ a {
     height: 30vh;
     min-height: unset;
   }
+}
+
+.about {
+  background-color:rgb(226, 226, 226);
+  text-align: center;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
