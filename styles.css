@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-  padding-top: 1em;
+  padding-top: 0.3rem;
   margin: 0;
   text-align: center;
   color: #333;
@@ -73,19 +73,35 @@ a {
     height: 30vh;
     min-height: unset;
   }
+  .split {
+    flex-direction: column;
+    margin: 3em;
+  }
 }
 
 .about {
   background-color:rgb(226, 226, 226);
-  text-align: center;
 }
 
 .split {
   display: flex;
-  flex-direction: row;
-  margin: 3em;
   font-weight: 600;
   min-width: 1em;
+  margin-left: 4em;
+  margin-right: 4em
+}
+
+/* .p1-about {
+  text-align: right;
+}
+
+.p2-about {
+  text-align: left;
+} */
+
+.p1-about,
+.p2-about {
+  margin: 1rem;
 }
 
 p {
